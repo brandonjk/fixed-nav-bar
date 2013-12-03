@@ -1,4 +1,4 @@
 fixed-nav-bar
 =============
 
-Fixed navigation bar with semi-transparent background.
+A stylishly simple, fixed navigational bar with a semi-transparent background.
