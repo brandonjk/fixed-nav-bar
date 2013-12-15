@@ -2,7 +2,7 @@
 <div id="nav-bar">
     <div id="nav-container">
         <div id="nav-header">
-            <a href="#"><h1>fixed nav-bar</h1></a>
+            <a href="#"><h1>Fixed Nav-Bar</h1></a>
             <!-- Note: you can also place your logo image here
             <a href="#"><img src="logo.png" width="100%" alt="logo"></a>
             -->
@@ -15,13 +15,12 @@
                 <!-- Secondary Menu -->
                     <div class="arrow"></div>
                     <ul>
-                        <li><a href="#">Africa</a></li>
-                        <li><a href="#">North America</a></li>
-                        <li><a href="#">South America</a></li>                        
-                        <li><a href="#">Antarctica</a></li>
-                        <li><a href="#">Asia</a></li>
-                        <li><a href="#">Australia</a></li>
-                        <li><a href="#">Europe</a></li>
+                        <li><a href="#1">Africa</a></li>
+                        <li><a href="#2">North America</a></li>
+                        <li><a href="#3">South America</a></li>                        
+                        <li><a href="#4">Asia</a></li>
+                        <li><a href="#5">Australia</a></li>
+                        <li><a href="#6">Europe</a></li>
                     </ul>
                 </li>
                 <li><a href="#" id="item-3">Contact</a></li>
@@ -44,5 +43,3 @@
         </div>
     </div>    
 </div>
-<!-- Nav-Back -->
-<div id="nav-back"></div>
