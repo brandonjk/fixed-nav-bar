@@ -1,6 +1,5 @@
-<!-- Nav-Bar -->
-<div id="nav-bar">
-    <div id="nav-container">
+<nav>
+    <div id="nav-bar">
         <div id="nav-header">
             <a href="#"><h1>Fixed Nav-Bar</h1></a>
             <!-- Note: you can also place your logo image here
@@ -42,4 +41,4 @@
             </ul>
         </div>
     </div>    
-</div>
+</nav>
