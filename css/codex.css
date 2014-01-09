@@ -268,18 +268,6 @@ nav {
         display: block;
         }    
 
-    .demo {
-        min-width: 48em;
-        }
-
-    }
-
-@media all and (max-width: 36em) {
-    
-    .demo br:first-child {
-        display: block;
-        }
-
     }
 
 @media only screen
@@ -308,23 +296,6 @@ and (max-device-width : 480px) {
     
     #nav-menu li:hover {
         box-shadow: none;
-        }
-    
-    .demo {
-        top: 55%; left: 5%;
-        line-height: 1.25em;
-        }
-
-    .demo br:first-child {
-        display: block;
-        }
-
-    .caption {
-        right: 5%;
-        }
-
-    .gitbtns {
-        display: none;
         }
         
     }
