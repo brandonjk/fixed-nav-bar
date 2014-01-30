@@ -39,10 +39,10 @@
         <div id="nav-menu">
             <ul>
                 <li><a href="#" id="item-1">About</a></li>
-                <li class="parent"><a href="#" id="item-2">Explore</a>
+                <li><a href="#" id="item-2">Explore</a>
                 <!-- Secondary Menu -->
-                    <div class="arrow sub-nav"></div>
-                    <ul class="sub-nav">
+                    <div class="arrow"></div>
+                    <ul>
                         <li><a href="#1">Africa</a></li>
                         <li><a href="#2">North America</a></li>
                         <li><a href="#3">South America</a></li>                        
