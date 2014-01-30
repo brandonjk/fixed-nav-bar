@@ -2,7 +2,7 @@
 Name: Scaled Nav-Bar
 URI: http://brandonkwong.com/dev/scaled-nav-bar/
 Description: Stylishly simple, fixed navigational bar with a responsive touch.
-Version: 2.5.0 (Document last updated on 9-Jan-14)
+Version: 2.5.2 (Document last updated on 29-Jan-14)
 Author: Brandon Kwong
 Author URI: http://brandonkwong.com
 */
@@ -101,7 +101,7 @@ nav {
 
 #nav-menu li, #nav-menu-r li, #nav-menu-s li {
     display: block; position: relative; float: left;
-    margin-left: 3em; padding: 0; height: 100%;
+    margin-left: 2.5em; padding: 0; height: 100%;
     }
 
 #nav-menu li:first-child, #nav-menu-r li:first-child {
@@ -124,7 +124,6 @@ nav {
     cursor: pointer;
     }
 
-
 /* Menu Right */
 
 #nav-menu-r {
@@ -138,7 +137,6 @@ nav {
 #nav-menu-r li:hover, #nav-menu-s li:hover {
     cursor: pointer;
     }
-
 
 /* Menu Small */
 
@@ -176,6 +174,10 @@ nav {
     box-shadow: 0 .6em .75em 0 rgba(0, 0, 0, .65);
     border-radius: .2em;    
     }
+    
+#nav-menu ul li:hover > ul {
+    display: block;
+    }
 
 #nav-menu ul ul li, #nav-menu-s ul ul li {
     margin: 0 auto; padding: 0; width: 10em;
@@ -196,8 +198,11 @@ nav {
     color: #b163a3;
     }
 
-
 /* Arrow */
+
+#nav-menu ul li:hover > .arrow {
+    display: block;
+    }
 
 #nav-menu .arrow, #nav-menu-s .arrow {
     display: none;
@@ -219,7 +224,6 @@ nav {
     margin-left: -.5em;
     margin-bottom: .2em;
     }
-
 
 /* Menu Small */
 
